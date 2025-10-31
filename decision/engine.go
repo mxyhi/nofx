@@ -227,11 +227,11 @@ func buildSystemPrompt(accountEquity float64, btcEthLeverage, altcoinLeverage in
 	sb.WriteString("4. **保证金**: 总使用率 ≤ 90%\n\n")
 
 	// === 做空激励 ===
-	sb.WriteString("# 📉 做多做空平衡\n\n")
-	sb.WriteString("**重要**: 下跌趋势做空的利润 = 上涨趋势做多的利润\n\n")
-	sb.WriteString("- 上涨趋势 → 做多\n")
-	sb.WriteString("- 下跌趋势 → 做空\n")
-	sb.WriteString("- 震荡市场 → 观望\n\n")
+	// sb.WriteString("# 📉 做多做空平衡\n\n")
+	// sb.WriteString("**重要**: 下跌趋势做空的利润 = 上涨趋势做多的利润\n\n")
+	// sb.WriteString("- 上涨趋势 → 做多\n")
+	// sb.WriteString("- 下跌趋势 → 做空\n")
+	// sb.WriteString("- 震荡市场 → 观望\n\n")
 	// sb.WriteString("**不要有做多偏见！做空是你的核心工具之一**\n\n")
 
 	// === 交易频率认知 ===
