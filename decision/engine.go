@@ -232,7 +232,7 @@ func buildSystemPrompt(accountEquity float64, btcEthLeverage, altcoinLeverage in
 	sb.WriteString("- 上涨趋势 → 做多\n")
 	sb.WriteString("- 下跌趋势 → 做空\n")
 	sb.WriteString("- 震荡市场 → 观望\n\n")
-	sb.WriteString("**不要有做多偏见！做空是你的核心工具之一**\n\n")
+	// sb.WriteString("**不要有做多偏见！做空是你的核心工具之一**\n\n")
 
 	// === 交易频率认知 ===
 	sb.WriteString("# ⏱️ 交易频率认知\n\n")
