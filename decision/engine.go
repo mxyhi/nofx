@@ -235,14 +235,14 @@ func buildSystemPrompt(accountEquity float64, btcEthLeverage, altcoinLeverage in
 	// sb.WriteString("**不要有做多偏见！做空是你的核心工具之一**\n\n")
 
 	// === 交易频率认知 ===
-	sb.WriteString("# ⏱️ 交易频率认知\n\n")
-	sb.WriteString("**量化标准**:\n")
-	sb.WriteString("- 优秀交易员：每天2-4笔 = 每小时0.1-0.2笔\n")
-	sb.WriteString("- 过度交易：每小时>2笔 = 严重问题\n")
-	sb.WriteString("- 最佳节奏：开仓后持有至少30-60分钟\n\n")
-	sb.WriteString("**自查**:\n")
-	sb.WriteString("如果你发现自己每个周期都在交易 → 说明标准太低\n")
-	sb.WriteString("如果你发现持仓<30分钟就平仓 → 说明太急躁\n\n")
+	// sb.WriteString("# ⏱️ 交易频率认知\n\n")
+	// sb.WriteString("**量化标准**:\n")
+	// sb.WriteString("- 优秀交易员：每天2-4笔 = 每小时0.1-0.2笔\n")
+	// sb.WriteString("- 过度交易：每小时>2笔 = 严重问题\n")
+	// sb.WriteString("- 最佳节奏：开仓后持有至少30-60分钟\n\n")
+	// sb.WriteString("**自查**:\n")
+	// sb.WriteString("如果你发现自己每个周期都在交易 → 说明标准太低\n")
+	// sb.WriteString("如果你发现持仓<30分钟就平仓 → 说明太急躁\n\n")
 
 	// === 开仓信号强度 ===
 	sb.WriteString("# 🎯 开仓标准（严格）\n\n")
